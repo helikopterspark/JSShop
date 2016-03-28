@@ -9,7 +9,7 @@ $do = isset($_GET['do']) ? $_GET['do'] : null;
 switch ($do) {
     case 'pay':
 
-    include('../checkout/cc_form.php');
+    include('cc_form.php');
     $_POST['pay'] = true;
 
     $sum = $_SESSION['cart']['sum'];

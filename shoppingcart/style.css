@@ -1,0 +1,170 @@
+/**
+* Stylesheet for web shop
+*/
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
+
+html {
+    font-family: 'Roboto Slab', serif;
+}
+
+h1, h2 {
+    border-bottom:1px solid #ccc;
+    font-weight: bold;
+    margin-bottom: 11px;
+}
+
+.item-image {
+    height: auto;
+    max-width: 100px;
+}
+
+#shop-container, #checkout-container {
+    width: 960px;
+    margin: auto;
+}
+
+#shop-items-container {
+    width: 100%;
+}
+
+#shop-items table {
+    width: auto;
+}
+
+#shop-items {
+    width: 63%;
+    background-color: #F5F5F5;
+}
+
+table {
+    width: auto;
+}
+
+thead {
+    border: none;
+}
+
+th {
+    padding: 10px;
+    text-align: center;
+}
+
+td {
+    border: 1px solid #fff;
+    text-align: center;
+    vertical-align: top;
+    padding: 10px;
+}
+
+#shopping-cart table {
+    width: 100%;
+}
+
+#shopping-cart td {
+    border: 1px solid #F5F5F5;
+}
+
+#shopping-cart {
+    border: 1px solid #999;
+    border-radius:4px;
+    padding:4px;
+    width: 300px;
+    min-height:200px;
+    float:right;
+    font-size: smaller;
+}
+
+#status {
+    font-style: italic;
+}
+
+output {
+    color: red;
+}
+
+fieldset {
+    background-color: #F5F5F5;
+    border-style: none;
+}
+
+input[type='submit'], input[type='reset'], input[type='button'] {
+  color:#333;
+  padding: 7px;
+  background-color: #ddd;
+  border-color: #ddd;
+  border-style: solid;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+input[type='submit']:hover, input[type='reset']:hover, input[type='button']:hover {
+	color: #fff;
+  border-color: #666;
+  background-color: #666;
+}
+
+input[type='text'], input[type="password"], input[type='url'], select {
+
+	width: 98%;
+  border-style: none;
+  box-shadow: 1px 1px 1px #999;
+  outline: medium none;
+  transition: all 0.3s ease-in-out 0s;
+  color:#6F6F6E;
+  padding:8px;
+}
+
+select {
+    width: 50%;
+}
+
+.cform-columns-2 {
+    min-width: 900px;
+
+}
+
+.cform-columns-2 input[type='text'] {
+    width: 75%;
+}
+
+.cform-column-1 {
+    float:left;
+    width:50%;
+}
+.cform-column-2 {
+    float:left;
+    width:50%;
+}
+
+input[type='submit']:hover {
+    border: 2px solid #DB4400;
+}
+
+.cform-buttonbar {clear:both;
+    background-color:#666666;
+    padding:1em;
+    border:1px solid #aaa;
+    text-align: right;
+    p{margin-bottom:0;}
+}
+
+.success, .error, .info {
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid black;
+    font-weight: bold;
+}
+
+.success {
+    background-color: #87D37C;
+}
+
+.error {
+    background-color: #EC644B;
+}
+
+.info {
+    background-color: #6BB9F0;
+}
