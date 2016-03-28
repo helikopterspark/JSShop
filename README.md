@@ -20,4 +20,4 @@ if (sPage === 'checkout-page.php') {
 
 * modernizr - put modernizr.js in the js folder
 
-* [CForm](https://github.com/mosbth/cform/), a PHP class for creating, rendering and validating HTML forms. put cform-master in the shoppingcart folder.
+* [CForm](https://github.com/mosbth/cform/), a PHP class for creating, rendering and validating HTML forms. put the cform-master folder (with contents) in the shoppingcart folder.

@@ -22,7 +22,7 @@ switch ($do) {
         $charge = $currency . $sum;
         $sum = 0;
         unset($_SESSION['cart']);
-        $output = "The payment transaction was successful. Your credit card was charged " . $charge . ".";
+        $output = "The payment transaction was successful. Your credit card was charged " . $charge;
         $outputClass = 'success';
     } elseif ($status === false) {
         $output = "The form contains errors.";
