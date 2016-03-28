@@ -20,6 +20,4 @@ if (sPage === 'checkout-page.php') {
 ### Dependencies
 * jQuery - put jquery.js in the js folder
 
-* modernizr - put modernizr.js in the js folder
-
 * [CForm](https://github.com/mosbth/cform/), a PHP class for creating, rendering and validating HTML forms. put the cform-master folder (with contents) in the shoppingcart folder.
